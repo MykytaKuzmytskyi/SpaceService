@@ -1,3 +1,6 @@
 from django.contrib import admin
 
-# Register your models here.
+from rockets.models import Rocket, Component
+
+admin.site.register(Rocket)
+admin.site.register(Component)
